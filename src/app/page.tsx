@@ -1,3 +1,6 @@
+"use client";
+import StateObject from "@/components/StateObject";
+import StatePrimitive from "@/components/StatePrimitive";
 import TableProduct, { product } from "@/components/TableProduct";
 
 export default function Home() {
@@ -25,7 +28,9 @@ export default function Home() {
   ];
   return (
     <main>
-      <TableProduct products={mockData} />
+      {/* <TableProduct products={mockData} /> */}
+      {/* <StatePrimitive /> */}
+      <StateObject />
     </main>
   );
 }
