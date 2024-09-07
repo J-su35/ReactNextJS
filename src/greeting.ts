@@ -5,7 +5,7 @@ interface GreetingParams {
   }
   
   function greeting(params: GreetingParams) {
-    if (params.format === 'Table') {
+    if (params.format === 'Table' || 'Default') {
       console.table(params);
     } else {
       console.log("error");
